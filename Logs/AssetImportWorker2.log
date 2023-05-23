@@ -1,0 +1,375 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.25f1 (68ef2c4f8861) revision 6876972'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 24274 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+B:\Unity\2021.3.25f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+B:/Documents/UNI/Year 3/Tri 1/AR + VR/Assignment/Assignment
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+50899
+Successfully changed project path to: B:/Documents/UNI/Year 3/Tri 1/AR + VR/Assignment/Assignment
+B:/Documents/UNI/Year 3/Tri 1/AR + VR/Assignment/Assignment
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [22476] Host "[IP] 10.0.0.108 [Port] 0 [Flags] 2 [Guid] 2510098215 [EditorId] 2510098215 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-A4R8PM7) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [22476] Host "[IP] 10.0.0.108 [Port] 0 [Flags] 2 [Guid] 2510098215 [EditorId] 2510098215 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-A4R8PM7) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 119.95 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.73 ms.
+Initialize engine version: 2021.3.25f1 (68ef2c4f8861)
+[Subsystems] Discovering subsystems at path B:/Unity/2021.3.25f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path B:/Documents/UNI/Year 3/Tri 1/AR + VR/Assignment/Assignment/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4080 (ID=0x2704)
+    Vendor:   NVIDIA
+    VRAM:     16064 MB
+    Driver:   31.0.15.3141
+Initialize mono
+Mono path[0] = 'B:/Unity/2021.3.25f1/Editor/Data/Managed'
+Mono path[1] = 'B:/Unity/2021.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'B:/Unity/2021.3.25f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56276
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: B:/Unity/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003756 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 102.82 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.676 seconds
+Domain Reload Profiling:
+	ReloadAssembly (677ms)
+		BeginReloadAssembly (88ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (484ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (116ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (289ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (103ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (129ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008493 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image B:\Documents\UNI\Year 3\Tri 1\AR + VR\Assignment\Assignment\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image B:\Documents\UNI\Year 3\Tri 1\AR + VR\Assignment\Assignment\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 88.17 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Package Manager log level set to [2]
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in B:\Documents\UNI\Year 3\Tri 1\AR + VR\Assignment\Assignment\Library\PackageCache\com.unity.xr.oculus@3.3.0\Runtime\OculusLoader.cs:282 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in B:\Documents\UNI\Year 3\Tri 1\AR + VR\Assignment\Assignment\Library\PackageCache\com.unity.xr.oculus@3.3.0\Runtime\OculusLoader.cs:267 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <a40b0ad4a868437393ad434631fb6ff1>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <a40b0ad4a868437393ad434631fb6ff1>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <a40b0ad4a868437393ad434631fb6ff1>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <5092d70d16a64dd9a555dd50f38aead0>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.314 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1315ms)
+		BeginReloadAssembly (143ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (1057ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (325ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (530ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (88ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (311ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 3.28 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.63 ms.
+Unloading 3787 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 52 unused Assets / (114.5 KB). Loaded Objects now: 4225.
+Memory consumption went from 135.0 MB to 134.9 MB.
+Total: 4.847800 ms (FindLiveObjects: 0.666100 ms CreateObjectMapping: 0.518100 ms MarkObjects: 3.379200 ms  DeleteObjects: 0.283000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 5844.411738 seconds.
+  path: Assets/Construction Vehicles 1.1/Prefabs/Bull Dozer 2.prefab
+  artifactKey: Guid(94636817eafc9264081252d6b711a0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Construction Vehicles 1.1/Prefabs/Bull Dozer 2.prefab using Guid(94636817eafc9264081252d6b711a0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3421108aaaaf84dd79a95a23d919d244') in 0.171628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.929436 seconds.
+  path: Assets/Construction Vehicles 1.1/Prefabs/Bull Dozer 2.prefab
+  artifactKey: Guid(94636817eafc9264081252d6b711a0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Construction Vehicles 1.1/Prefabs/Bull Dozer 2.prefab using Guid(94636817eafc9264081252d6b711a0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08addf8019df30e22215a886cd0f4e92') in 0.030619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.405135 seconds.
+  path: Assets/Construction Vehicles 1.1/Prefabs/Bull Dozer 2.prefab
+  artifactKey: Guid(94636817eafc9264081252d6b711a0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Construction Vehicles 1.1/Prefabs/Bull Dozer 2.prefab using Guid(94636817eafc9264081252d6b711a0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44deac5780d1f6d8cafe7e17e0a5dbad') in 0.019349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.855153 seconds.
+  path: Assets/Construction Vehicles 1.1/Prefabs/Bull Dozer 2.prefab
+  artifactKey: Guid(94636817eafc9264081252d6b711a0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Construction Vehicles 1.1/Prefabs/Bull Dozer 2.prefab using Guid(94636817eafc9264081252d6b711a0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b9dc7635480683c565a8d67f74f55a7') in 0.025781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.086223 seconds.
+  path: Assets/Construction Vehicles 1.1/Prefabs/Bull Dozer 2.prefab
+  artifactKey: Guid(94636817eafc9264081252d6b711a0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Construction Vehicles 1.1/Prefabs/Bull Dozer 2.prefab using Guid(94636817eafc9264081252d6b711a0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f58ef8810af06255a1d686c3ff59bbdf') in 0.021116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.796587 seconds.
+  path: Assets/Construction Vehicles 1.1/Prefabs/Bull Dozer 2.prefab
+  artifactKey: Guid(94636817eafc9264081252d6b711a0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Construction Vehicles 1.1/Prefabs/Bull Dozer 2.prefab using Guid(94636817eafc9264081252d6b711a0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '311776d239e4d17ceee933c7f6b2842c') in 0.020161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 195.463810 seconds.
+  path: Assets/Construction Vehicles 1.1/Prefabs/Bull Dozer 2.prefab
+  artifactKey: Guid(94636817eafc9264081252d6b711a0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Construction Vehicles 1.1/Prefabs/Bull Dozer 2.prefab using Guid(94636817eafc9264081252d6b711a0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '631fad676c6e4fc4d7fba995c441f2e1') in 0.033011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.178001 seconds.
+  path: Assets/Construction Vehicles 1.1/Prefabs/Bull Dozer 2.prefab
+  artifactKey: Guid(94636817eafc9264081252d6b711a0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Construction Vehicles 1.1/Prefabs/Bull Dozer 2.prefab using Guid(94636817eafc9264081252d6b711a0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '498a659da36a5d0f044106d27d5b8047') in 0.021494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.645173 seconds.
+  path: Assets/Construction Vehicles 1.1/Prefabs/Bull Dozer 2.prefab
+  artifactKey: Guid(94636817eafc9264081252d6b711a0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Construction Vehicles 1.1/Prefabs/Bull Dozer 2.prefab using Guid(94636817eafc9264081252d6b711a0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '997affdfd758cc26bdb89f2d7e99994d') in 0.021616 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.767265 seconds.
+  path: Assets/Construction Vehicles 1.1/Prefabs/Bull Dozer 2.prefab
+  artifactKey: Guid(94636817eafc9264081252d6b711a0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Construction Vehicles 1.1/Prefabs/Bull Dozer 2.prefab using Guid(94636817eafc9264081252d6b711a0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83bb27ff09b3d1ecbecdf6f55a1ddc7b') in 0.021435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.297584 seconds.
+  path: Assets/Construction Vehicles 1.1/Prefabs/Bull Dozer 2.prefab
+  artifactKey: Guid(94636817eafc9264081252d6b711a0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Construction Vehicles 1.1/Prefabs/Bull Dozer 2.prefab using Guid(94636817eafc9264081252d6b711a0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72f533635a86f273906802ce98dce76c') in 0.031373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.854005 seconds.
+  path: Assets/Construction Vehicles 1.1/Prefabs/Bull Dozer 2.prefab
+  artifactKey: Guid(94636817eafc9264081252d6b711a0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Construction Vehicles 1.1/Prefabs/Bull Dozer 2.prefab using Guid(94636817eafc9264081252d6b711a0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '579c82183c4ff89a5ab949133ce1b332') in 0.028486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 135.614932 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79842766b460edbeab6a34051e857a80') in 0.013610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.437449 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(9d9dba2a6f3a2e047a41f69bb65e3c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(9d9dba2a6f3a2e047a41f69bb65e3c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05db52a4468e54fea6271b1fafd31bfa') in 0.009740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.052401 seconds.
+  path: Assets/Construction Vehicles 1.1/Materials
+  artifactKey: Guid(78a77a3b3193a2c49aedd8ed758803ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Construction Vehicles 1.1/Materials using Guid(78a77a3b3193a2c49aedd8ed758803ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b74a6fdf8a25f06aa524eb717dca795') in 0.002838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.226361 seconds.
+  path: Assets/Construction Vehicles 1.1/Materials/New Material.mat
+  artifactKey: Guid(43032abebb44e0f4fa915ce64078f24d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Construction Vehicles 1.1/Materials/New Material.mat using Guid(43032abebb44e0f4fa915ce64078f24d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17a508bb9d9692ef0f2320080d532ee2') in 0.036384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.341105 seconds.
+  path: Assets/Materials/Excavator.mat
+  artifactKey: Guid(43032abebb44e0f4fa915ce64078f24d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Excavator.mat using Guid(43032abebb44e0f4fa915ce64078f24d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfc95dcfc861d968a1042ba5e57abd20') in 0.021242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.499573 seconds.
+  path: Assets/Construction Vehicles 1.1/Scenes
+  artifactKey: Guid(04704a238047da84e8eb31d42076d854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Construction Vehicles 1.1/Scenes using Guid(04704a238047da84e8eb31d42076d854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffe8ab7d2febf5cbbf4f0117d67200ec') in 0.010589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.349389 seconds.
+  path: Assets/Construction Vehicles 1.1/Scenes/Demo New.unity
+  artifactKey: Guid(cc6684233c2b8fd4892caba168d89b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Construction Vehicles 1.1/Scenes/Demo New.unity using Guid(cc6684233c2b8fd4892caba168d89b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2583e4b4f8908b051995ffaf43f99a07') in 0.009914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.759777 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(0cc1b79de78bc4991892d4d342d7211a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(0cc1b79de78bc4991892d4d342d7211a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '464905cf348a3030ff915904016b0176') in 0.002810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.006186 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f731f10d5e5b7545d0db0c1188a6011') in 0.010621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.243356 seconds.
+  path: Assets/Scenes/Assignment.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Assignment.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80ca64e645c7a0a7d4c515bb1949b9e8') in 0.008172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.642211 seconds.
+  path: Assets/Construction Vehicles 1.1/Textures
+  artifactKey: Guid(c7fc4437c64c06d458b3825507e37783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Construction Vehicles 1.1/Textures using Guid(c7fc4437c64c06d458b3825507e37783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e0c98982db8cb44a2b52419029a8e46') in 0.009064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.104703 seconds.
+  path: Assets/Construction Vehicles 1.1/CONSTRUCTION VEHICLE.pdf
+  artifactKey: Guid(cfb6056644e2ced4f97122abd826b51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Construction Vehicles 1.1/CONSTRUCTION VEHICLE.pdf using Guid(cfb6056644e2ced4f97122abd826b51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9249a446ebcc7fe0eabbb4c3974b83ec') in 0.017877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.605022 seconds.
+  path: Assets/Documentation
+  artifactKey: Guid(ef0e9f67cbe37e242af5f780a4ad0fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documentation using Guid(ef0e9f67cbe37e242af5f780a4ad0fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0af26b546e96521e88584834f88a47fa') in 0.009468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.510644 seconds.
+  path: Assets/XR
+  artifactKey: Guid(22baeac49dfd54025859cd02808b06f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR using Guid(22baeac49dfd54025859cd02808b06f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f85bc78dacde45cbcf00a96a0618d6b') in 0.010742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.027608 seconds.
+  path: Assets/XR/XRGeneralSettings.asset
+  artifactKey: Guid(1a4c68ca72a83449f938d669337cb305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/XRGeneralSettings.asset using Guid(1a4c68ca72a83449f938d669337cb305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96632b8b47ed2aa4910e15c74391877a') in 0.019052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 123.752270 seconds.
+  path: Assets/XRPlatformControllerSetup.cs
+  artifactKey: Guid(e7987a4f9b79e754c951908fed65bc14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRPlatformControllerSetup.cs using Guid(e7987a4f9b79e754c951908fed65bc14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7671f1af1399f1b170bef23884e7ae2') in 0.025817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.921362 seconds.
+  path: Assets/Plane.controller
+  artifactKey: Guid(7a40eb1d7fcdbe5459fc4197af51bfae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plane.controller using Guid(7a40eb1d7fcdbe5459fc4197af51bfae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b421b6d460176146c50d0a8ff214e6e6') in 0.020908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.118703 seconds.
+  path: Assets/Prefabs/Bull Dozer 1.prefab
+  artifactKey: Guid(a10acadba451a9643bd9de2355620073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bull Dozer 1.prefab using Guid(a10acadba451a9643bd9de2355620073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a930c347aad50fba99b9bcd39da1a28') in 0.022807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Prefabs/Road Roller.prefab
+  artifactKey: Guid(0f618d9857064e241a7b14cb2123b5d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Road Roller.prefab using Guid(0f618d9857064e241a7b14cb2123b5d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f98587859f4b41d9cdaf2131532574d9') in 0.016323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Prefabs/Dumping Truck.prefab
+  artifactKey: Guid(9a7334ddf25ab2c47ae3c5d83fc40d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Dumping Truck.prefab using Guid(9a7334ddf25ab2c47ae3c5d83fc40d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a15f1a74e4c6efd77aa4e7c8fcb8dc1') in 0.024406 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
